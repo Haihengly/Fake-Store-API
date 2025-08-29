@@ -17,7 +17,7 @@ function Api() {
       });
   }, []);
 
-  if (loading) return <div className="text-center mt-10">Loading</div>;
+  if (loading) return <div className="text-center mt-10">Loading...</div>;
 
   return (
     <div className="container mx-auto p-4">
