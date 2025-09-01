@@ -1,10 +1,12 @@
-import Api from './api/fetchapi';
+// import Api from './api/fetchapi';
 import './App.css';
+import WelcomePage from './welcome/page';
 
 function App() {
   return (
     <div>
-      <Api/>
+      {/* <Api/> */}
+      <WelcomePage/>
     </div>
   );
 }
